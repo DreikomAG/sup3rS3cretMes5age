@@ -4,3 +4,6 @@ nginx/**/
 static/.well-known
 *.pem
 sup3rS3cretMes5age
+vault/file
+vault/config/vault.json
+.env
