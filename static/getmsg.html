@@ -1,19 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>OTS - One Time Secret</title>
+    <link rel="apple-touch-icon" sizes="32x32" href="/static/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/icons/favicon-32x32.png">
+    <meta content="#ffffff" name="theme-color">
     <!--Let browser know website is optimized for mobile-->
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <!-- Facebook/Slack Meta Tags-->
-    <meta content="Self Destructing Secure Message" property="og:title"/>
-    <meta
-            content="https://github.com/eranchetz/secretMsg"
-            property="og:image"
-    />
-    <meta content="secureMsg" property="og:site_name"/>
-    <meta
-            content="A self destructing one time secure msg service, have fun, stay secure!"
-            property="og:description"
-    />
+    <link href="/static/montserrat.css" rel="stylesheet">
     <link href="/static/application.css" rel="stylesheet"/>
     <script
             integrity="sha384-cV+rhyOuRHc9Ub/91rihWcGmMmCXDeksTtCihMupQHSsi8GIIRDG0ThDc3HGQFJ3"
@@ -23,12 +17,10 @@
 </head>
 
 <body>
-<header class="header">
-    <div class="container">
-        <a href="/msg">
-            <img alt="Logo" class="logo" src="/static/img/logo.png">
-        </a>
-    </div>
+<header>
+    <a href="/msg">
+        <img alt="Logo" class="logo" src="/static/img/logo.svg">
+    </a>
 </header>
 <main class="send">
     <div class="container">
@@ -54,9 +46,6 @@
         </div>
     </div>
 </main>
-<footer class="footer">
-    <a href="https://dreikom.ch" target="_blank">Infos</a>
-</footer>
 
 <script type="text/javascript">
     function domReady(fn) {

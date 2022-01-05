@@ -8,10 +8,10 @@
 
 body {
     min-width: 100vw;
-    min-height: 100vh;
+    min-height: 80vh;
     font-family: 'Montserrat', sans-serif;
     /*background-image: linear-gradient(to bottom left, #5c666e, #5c666e);*/
-    background-color: rgb(92, 102, 110);
+    background-color: #5C666EFF;
     -webkit-font-smoothing: antialiased;
     display: grid;
     margin: 0;
@@ -20,6 +20,7 @@ body {
 header {
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 main {
@@ -27,14 +28,21 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 91vh;
+    /*min-height: 91vh;*/
 }
 
-footer {
-    padding: 5px;
-    align-items: center;
-    justify-content: center;
-}
+/*footer {*/
+/*    padding: 5px;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    text-align: center;*/
+/*    background-color: white;*/
+/*}*/
+
+/*footer a {*/
+/*    text-decoration: none;*/
+/*    color: rgb(92, 102, 110);*/
+/*}*/
 
 h1 {
     font-weight: 400;
@@ -46,9 +54,11 @@ textarea {
     border: none;
     padding: 20px;
     font-size: 20px;
-    min-height: 170px;
-    transition: 200ms ease-in-out;
+    /*min-height: 170px;*/
+    transition: 50ms ease-in-out;
     width: 100%;
+    height: 270px;
+    /*width: 800px;*/
 }
 
 button {
@@ -77,7 +87,8 @@ button:hover {
 .container {
     position: relative;
     margin: 0 auto;
-    max-width: 500px;
+    max-width: 800px;
+    /*min-width: 500px;*/
     width: 100vw;
 }
 
@@ -112,25 +123,8 @@ button:hover {
     color: white;
 }
 
-.header {
-    text-align: center;
-    background-color: white;
-    /*border-bottom-left-radius: 10px;*/
-    /*border-bottom-right-radius: 10px;*/
-}
-
 .logo {
     padding: 5px;
-}
-
-.footer {
-    text-align: center;
-    background-color: white;
-    /*border-top-left-radius: 10px;*/
-    /*border-top-right-radius: 10px;*/
-}
-
-.footer a {
-    text-decoration: none;
-    color: rgb(92, 102, 110);
+    height: 70px;
+    width: auto;
 }
