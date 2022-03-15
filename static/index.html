@@ -21,12 +21,14 @@
 <main class="send">
     <div class="container">
         <h1>Secret Message</h1>
-        <p class="subtitle">Send a secret one-time read only message</p>
+        <!--        <p class="subtitle">Send a secret one-time read only message</p>-->
+        <p class="subtitle">Senden Sie eine geheime einmalige schreibgeschützte Nachricht</p>
         <div class="container">
             <form action="/no-internet" enctype="multipart/form-data" id="secretform" method="POST">
 
                 <div class="input-field">
-                    <textarea id="textarea1" name="msg" placeholder="Paste your message here"
+<!--                    <textarea id="textarea1" name="msg" placeholder="Paste your message here"-->
+                    <textarea id="textarea1" name="msg" placeholder="Fügen Sie hier Ihre Nachricht ein"
                               required="required"></textarea>
                 </div>
                 <div class="ttl" style="display: none">
@@ -38,7 +40,8 @@
                     </select>
                 </div>
                 <div class="button_wrapper">
-                    <button class="encrypt" name="action" type="submit">Submit
+                    <!--                    <button class="encrypt" name="action" type="submit">Submit-->
+                    <button class="encrypt" name="action" type="submit">Link erstellen
                         <svg height="12" viewBox="0 0 268.832 268.832" width="12" xmlns="http://www.w3.org/2000/svg">
                             <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"
                                   fill="#FFF"/>
@@ -51,15 +54,19 @@
                 <div class="output-field">
                     <textarea class="textarea" id="url" readonly=true></textarea>
                 </div>
-                <div class="ttl">
-                    Do not open the link, unless you want to destroy the secret message
-                    <br>
-                    Your link will expire in 7 days
-                </div>
                 <div class="button">
                     <button class="btn clipboard" data-clipboard-target="#url">
-                        Copy to Clipboard
+                        <!--                        Copy to Clipboard-->
+                        In die Zwischenablage kopieren
                     </button>
+                </div>
+                <br>
+                <div class="ttl">
+                    <!--                    Do not open the link, unless you want to destroy the secret message-->
+                    Öffnen Sie den Link nicht, es sei denn, Sie möchten die geheime Nachricht zerstören
+                    <br>
+                    <!--                    Your link will expire in 7 days-->
+                    Ihr Link läuft in 7 Tagen ab
                 </div>
             </div>
         </div>

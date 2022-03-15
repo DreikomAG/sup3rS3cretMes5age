@@ -25,7 +25,8 @@
 <main class="send">
     <div class="container">
         <h1>Secret Message</h1>
-        <p class="subtitle">Get your secret one-time read only message</p>
+        <!--        <p class="subtitle">Get your secret one-time read only message</p>-->
+        <p class="subtitle">Erhalten Sie Ihre geheime einmalige schreibgeschützte Nachricht</p>
         <div class="input-field">
           <textarea
                   id="textarea1"
@@ -41,7 +42,8 @@
                     name="action"
                     type="submit"
             >
-                Copy to clipboard
+                In die Zwischenablage kopieren
+<!--                Copy to clipboard-->
             </button>
         </div>
     </div>
@@ -91,7 +93,8 @@
             .catch((err) => {
                 console.log('An error occurred.');
                 console.log(err);
-                showMsg('Message was already deleted :(');
+                // showMsg('Message was already deleted :(');
+                showMsg('Die Nachricht wurde bereits gelöscht:(');
             });
     });
 
