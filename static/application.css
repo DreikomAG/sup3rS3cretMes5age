@@ -9,6 +9,7 @@
 body {
     min-width: 100vw;
     min-height: 80vh;
+    /*min-height: 100vh;*/
     font-family: 'Montserrat', sans-serif;
     /*background-image: linear-gradient(to bottom left, #5c666e, #5c666e);*/
     background-color: #5C666EFF;
@@ -25,9 +26,11 @@ header {
 
 main {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /*justify-content: center;*/
+    /*align-items: center;*/
     text-align: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     /*min-height: 91vh;*/
 }
 

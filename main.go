@@ -32,6 +32,7 @@ func main() {
 	e.POST("/secret", handlers.CreateMsgHandler)
 	e.File("/msg", "static/index.html")
 	e.File("/getmsg", "static/getmsg.html")
+	e.File("/requestmsg", "static/requestmsg.html")
 	e.Static("/static", "static")
 
 	if conf.HttpBindingAddress != "" {
